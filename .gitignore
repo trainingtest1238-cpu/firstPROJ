@@ -1,0 +1,17 @@
+# Flutter 
+.dart_tool/
+build/
+.idea/
+*.iml
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# .NET / Visual Studio
+bin/
+obj/
+.vs/
+
+#General
+*.log
+*.tmp

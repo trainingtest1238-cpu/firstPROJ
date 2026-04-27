@@ -1,0 +1,78 @@
+const Map<String, String> enUS = {
+  //splash secreen
+  'splash_fresh_bakery': 'Fresh baked goods,',
+  'splash_delivery': 'delivered straight to your door!',
+
+  //login secreen
+  'login_phone_number1': 'Phone number',
+  'login_phone_number': 'Phone number',
+  'login_country_code': 'Country code',
+  'login_button': 'Log in',
+  'login_or': 'Or',
+  'login_continue_google': 'Continue with Google',
+  'login_register_now': 'Register',
+  'login_no_account': "Don’t have an account?",
+  'login_title': 'Log in',
+  'login_enter_info': 'Please enter your information to log in',
+  //homepage
+  'home_account': 'Your account',
+  'home_orders': 'Your orders',
+  'home_main': 'Home',
+  'home_search': 'Search for a product',
+  'home_greeting': 'Hello, ',
+  'home_address': 'Home',
+  'home_deliver_to': 'Deliver to',
+  'home_branch':
+      'Your order will be prepared from King Abdullah II Street branch',
+  'home_show_all': 'Show all',
+  'home_categories': 'Explore categories',
+  'home_featured': 'Featured products',
+  'home_buy_again': 'Buy again',
+  //aboutus
+  'about_us_title': 'About us',
+  'about_us_history': 'Our history',
+  'about_us_history_body':
+      'Al Raya Automatic Bakeries was established in 2011 as an addition to a series of achievements. The bakery management has long experience of more than one hundred years in this field, including establishing and managing many bakeries.',
+  'about_us_vision': 'Our vision',
+  'about_us_vision_body':
+      'We are the Al Raya Bakeries family, with more than 100 years of experience in bread and sweets making. We aspire to develop this inherited profession from our parents and grandparents, and through our bakery we aim to reach all Jordanian and global markets through our high production capacity represented by the latest bread, kaak, and sweets-making machines.',
+  'about_us_contact': 'For contact and inquiries',
+  //my account
+  'myaccount_title': 'Account information',
+  'myaccount_delivery_address': 'Delivery address',
+  'myaccount_previous_orders': 'Previous orders',
+  'myaccount_wallet': 'Wallet',
+  'myaccount_choose_language': 'Choose language',
+  'myaccount_language': 'Language',
+  'myaccount_about_us': 'About us',
+  'myaccount_logout': 'Log out',
+  'myaccount_logout_confirm': 'Are you sure you want to log out?',
+  'myaccount_cancel': 'Cancel',
+  //account info
+  'account_edit': 'Edit',
+  'account_info_title': 'Account information',
+  'account_email': 'Email',
+  'account_mobile': 'Mobile phone number',
+  'account_first_name': 'First name',
+  'account_last_name': 'Last name',
+  'account_guest_user': 'Guest user',
+  'account_done': 'Done',
+  'account_changes_saved': 'Changes saved',
+  'account_save': 'Save',
+  'account_delete': 'Delete my account',
+  //item details
+  'item_price': 'JOD 5.37',
+  'item_add_to_cart': 'Add to cart',
+  'item_description': 'French bread made from sourdough with natural yeast',
+  'item_required': 'Required',
+  'item_unit_choice': 'Choose from unit',
+  'item_choose_one': 'Choose 1',
+  'item_1kg': '1 kg',
+  'item_500g': '500 g',
+  'item_order_together': 'Order together',
+  //search page
+  'search_hint': 'Search for a product',
+  'search_recent': 'Recently searched',
+  'search_best_selling': 'Best selling',
+  'currency_jod': 'JOD',
+};
