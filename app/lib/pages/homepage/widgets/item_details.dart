@@ -1,3 +1,4 @@
+import 'package:first/controllers/home_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:first/models/together.dart';
@@ -12,6 +13,7 @@ class ItemDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final HomeController controller = Get.find<HomeController>();
 
     return Scaffold(
       backgroundColor: AppColors.background,
@@ -23,7 +25,9 @@ class ItemDetails extends StatelessWidget {
           children: [
             Expanded(
               child: TextButton(
-                onPressed: () {},
+                onPressed: () {
+                  controller.AddToCart(product!, quantity.value);
+                },
                 style: TextButton.styleFrom(
                   backgroundColor: AppColors.primary,
                   shape: RoundedRectangleBorder(

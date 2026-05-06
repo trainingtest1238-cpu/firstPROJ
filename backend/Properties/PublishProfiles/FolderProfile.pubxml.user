@@ -2,8 +2,8 @@
 <!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\lenovo\source\repos\first\first\bin\Release\net10.0\publish\</_PublishTargetUrl>
-    <History>True|2026-04-15T12:38:32.9383977Z||;</History>
+    <_PublishTargetUrl>C:\firstPROJ\PROJ\backend\bin\Release\net10.0\publish\</_PublishTargetUrl>
+    <History>True|2026-05-04T08:42:19.8659549Z||;True|2026-04-15T15:38:32.9383977+03:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

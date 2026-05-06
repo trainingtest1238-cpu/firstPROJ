@@ -78,7 +78,13 @@ class Homapage extends GetView<HomeController> {
                       textAlign: isArabic ? TextAlign.right : TextAlign.left,
                     );
                   }),
-                  Image.asset('lib/assets/images/Group 23.png'),
+                  InkWell(
+                    onTap: () {
+                      controller.getCart();
+                      Get.toNamed('/cart');
+                    },
+                    child: Image.asset('lib/assets/images/Group 23.png'),
+                  ),
                 ],
               ),
             ),
@@ -236,8 +242,9 @@ class Homapage extends GetView<HomeController> {
                     return Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 0),
                       child: InkWell(
-                        onTap: () =>
-                            Get.toNamed('/details', arguments: special),
+                        onTap: () {
+                          Get.toNamed('/details', arguments: special);
+                        },
                         child: Column(
                           children: [
                             Padding(

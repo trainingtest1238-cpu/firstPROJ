@@ -3,6 +3,7 @@ import 'package:first/controllers/language_controller.dart';
 import 'package:first/controllers/thisUserController.dart';
 import 'package:first/core/theme/app_theme.dart';
 import 'package:first/pages/Splash.dart';
+import 'package:first/pages/cart.dart';
 import 'package:first/pages/homepage/homapage.dart';
 import 'package:first/pages/homepage/widgets/about_us.dart';
 import 'package:first/pages/homepage/widgets/account_info.dart';
@@ -68,6 +69,7 @@ class AlrayaApp extends StatelessWidget {
         GetPage(name: '/register', page: () => Register()),
         GetPage(name: '/users', page: () => UsersPage()),
         GetPage(name: '/otp', page: () => OtpPage()),
+        GetPage(name: '/cart', page: () => Cart()),
       ],
     );
   }

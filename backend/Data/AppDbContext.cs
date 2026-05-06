@@ -1,4 +1,5 @@
 ﻿using BackendAPI.Models;
+using first.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Dynamic;
 namespace BackendAPI.Data
@@ -12,5 +13,10 @@ namespace BackendAPI.Data
         public DbSet<Section> Sections { get; set; }
         public DbSet<SectionProduct> SectionProducts { get; set; }
         public DbSet<UserOtps> UserOtps { get; set; }
+        public DbSet<CartItem> CartItems { get; set; }
+
+        public DbSet<Order> Orders { get; set; }
+
+        public DbSet<OrderItem> OrderItems { get; set; }
     }
 }

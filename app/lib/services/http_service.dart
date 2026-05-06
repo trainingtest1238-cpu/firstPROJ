@@ -57,4 +57,15 @@ class HttpService {
       throw Exception('put request failes :${res.statusCode}');
     }
   }
+
+  Future<dynamic> deleteRequest(String url, Map data) async {
+    final res = await http.delete(
+      Uri.parse(url),
+      headers: await _getHeaders(isJson: true),
+    );
+    print("DELETE STATUS : ${res.statusCode}");
+    print("DELETE BODY : ${res.body}");
+
+    return res.body.isNotEmpty ? jsonDecode(res.body) : null;
+  }
 }
