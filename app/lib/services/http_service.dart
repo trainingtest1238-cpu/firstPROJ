@@ -63,8 +63,6 @@ class HttpService {
       Uri.parse(url),
       headers: await _getHeaders(isJson: true),
     );
-    print("DELETE STATUS : ${res.statusCode}");
-    print("DELETE BODY : ${res.body}");
 
     return res.body.isNotEmpty ? jsonDecode(res.body) : null;
   }

@@ -6,6 +6,7 @@ import 'package:first/core/theme/app_colors.dart';
 
 class MyAccount extends StatelessWidget {
   MyAccount({super.key});
+  // ignore: non_constant_identifier_names
   final Thisusercontroller ThisUserController = Get.find<Thisusercontroller>();
   @override
   Widget build(BuildContext context) {

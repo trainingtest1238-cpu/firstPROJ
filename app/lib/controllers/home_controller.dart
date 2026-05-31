@@ -11,7 +11,6 @@ class HomeController extends GetxController {
     final data = await HttpService().getRequest(
       "${HttpService().url}/api/products/home",
     );
-    print(data);
     homeData.value = data;
 
     final featured = data.firstWhere(
@@ -21,7 +20,6 @@ class HomeController extends GetxController {
 
     if (featured != null) {
       featuredProducts.value = featured['products'];
-      print("featered count = ${featuredProducts.length}");
     }
     final buyAgainSection = data.firstWhere(
       (e) => e['sectiontybe'] == 'buy_again',
@@ -36,7 +34,6 @@ class HomeController extends GetxController {
     final data = await HttpService().getRequest(
       "${HttpService().url}/api/categories",
     );
-    print(data);
     categories.value = data;
   }
 
@@ -45,7 +42,6 @@ class HomeController extends GetxController {
       "${HttpService().url}/api/cart/add",
       {"productID": product["productID"], "Quantity": quantity},
     );
-    print(data);
   }
 
   Future getCart() async {

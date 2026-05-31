@@ -42,7 +42,9 @@ class OtpPage extends StatelessWidget {
               ElevatedButton(
                 onPressed: () async {
                   final otp = otpController.text.trim();
+                  // ignore: avoid_print
                   print('otp page user id = $userId');
+                  // ignore: avoid_print
                   print('otp page otp = $otp');
                   try {
                     final res = await HttpService().postRequest(

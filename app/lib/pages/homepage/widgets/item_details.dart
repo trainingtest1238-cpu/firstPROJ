@@ -132,6 +132,7 @@ class ItemDetails extends StatelessWidget {
                 textAlign: TextAlign.right,
                 'item_description'.tr,
                 style: theme.textTheme.bodyMedium?.copyWith(
+                  // ignore: deprecated_member_use
                   color: Colors.black.withOpacity(0.4),
                   fontWeight: FontWeight.w300,
                 ),
@@ -175,6 +176,7 @@ class ItemDetails extends StatelessWidget {
                 'item_choose_one'.tr,
                 style: theme.textTheme.bodyMedium?.copyWith(
                   fontWeight: FontWeight.w300,
+                  // ignore: deprecated_member_use
                   color: Colors.black.withOpacity(0.4),
                 ),
               ),
