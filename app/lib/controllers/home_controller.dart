@@ -38,6 +38,7 @@ class HomeController extends GetxController {
   }
 
   Future AddToCart(Map<String, dynamic> product, int quantity) async {
+    // ignore: unused_local_variable
     final data = await HttpService().postRequest(
       "${HttpService().url}/api/cart/add",
       {"productID": product["productID"], "Quantity": quantity},
